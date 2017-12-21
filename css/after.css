@@ -39,3 +39,42 @@ ul a{
 .feedback-form{
  display: none;
 }
+
+	/* ----------------------------------------
+	Place your media queries below this comment!
+	------------------------------------------- */
+	@media only screen and (max-width: 900px) {
+		nav li {
+			padding: 3px 20px;
+		}
+	}
+
+/* MOBILE DEVICE CODE */
+@media only screen and (max-width: 700px) {
+	header {
+		background-size: auto;
+		height: 65vh;
+	}
+
+	header h1 {
+		font-size: 25px;
+	}
+
+ ul{
+   display: none;
+   width: 100%;
+
+ }
+ .hamburger{
+   display: block;
+   text-align: left;
+ }
+ nav li {
+   display: block;
+	 text-align: left;
+ }
+
+ .grid-wrapper {
+	 grid-template-columns: repeat(1, 1fr);
+ }
+}
