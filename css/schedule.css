@@ -30,3 +30,7 @@ li {
 display: block;
      list-style: circle;
 }
+
+ul a {
+   text-decoration: underline;
+}
