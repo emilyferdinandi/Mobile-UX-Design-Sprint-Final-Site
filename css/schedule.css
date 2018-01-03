@@ -26,10 +26,7 @@ header h2 {
   color: #7B98AA;
 }
 
-ul {
-  display: contents;
-}
-
 li {
-  display: contents;
+display: block;
+     list-style: circle;
 }
