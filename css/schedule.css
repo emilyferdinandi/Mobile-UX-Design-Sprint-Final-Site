@@ -33,5 +33,6 @@ display: block;
 
 .schedule li a {
    text-decoration: underline;
-    text-transform: capitalize;
+   text-transform: uppercase;
+		letter-spacing: .02em;
 }
