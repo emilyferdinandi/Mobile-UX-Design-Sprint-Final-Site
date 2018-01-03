@@ -1,18 +1,26 @@
 header{
-background-image: url('../images/register.jpg');
-height: 65vh;
+background-image: url('../images/attend3.jpg');
+height: 50vh;
 
 }
-header a{
- color: #F1F3F4;
-}
+
 input{
    border: 2px solid grey;
  margin: 20px;
 }
 
+h1 {
+  font-size: 30px;
+}
 p{
  margin: 50px;
  text-size:
 }
-Carley • Now
+
+
+ul {
+  padding-top: 0px;
+  font-size: 25px;
+  line-height: 1.4;
+  font-weight: bold;
+}
