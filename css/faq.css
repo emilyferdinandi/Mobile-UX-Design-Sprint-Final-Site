@@ -1,10 +1,11 @@
 header {
-  background-image: url('../images/lightbulb2.jpg');
-  height: 65vh;
+  background-image: url('../images/attend2.jpg');
+  height: 50vh;
+
 }
 
 h1 a {
-  color: white;
+  color: #323232;
 }
 
 section {
@@ -18,6 +19,9 @@ h4 {
 }
 
 p {
-  display: none;
+  font-size: 18px;
+}
+
+a {
   font-size: 18px;
 }
