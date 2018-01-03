@@ -23,14 +23,26 @@
 	img {
 		max-width: 100%;
 	}
+iframe {
+		max-width: 100%;
+}
+
+#gallery {
+font-size: 20px;
+margin: 0 auto;
+padding: 50px;
+}
 
 	/* ----------------------------------------
 	Typography
 	------------------------------------------- */
+
+
 	p {
 		font-family: 'Lato', sans-serif;
 		text-transform: none;
 		line-height: 1.4;
+		font-size: 18px;
 	}
 
 	h1, h2, h3, h4 {
@@ -61,11 +73,16 @@
 		color: #44545E;
 	}
 
+header {
+	margin-bottom: 40px;
+}
+
+
 	/* ----------------------------------------
 	Layout
 	------------------------------------------- */
 	section {
-		padding: 105px 30px;
+		padding: 45px 30px;
 	}
 
 	.wrap {
@@ -87,22 +104,26 @@
 	/* ----------------------------------------
 	Header
 	------------------------------------------- */
+
+	header h1 {
+		color: #333333;
+		font-size: 70px;
+		font-weight: 400;
+		opacity: none;
+
+	}
+
 	header {
 		background-repeat: no-repeat;
 		background-size: cover;
-		background-image: url('../images/Postits.jpg');
+		background-image: url('../images/postitheader4.jpg');
 		background-attachment: fixed;
-		height: 65vh;
+		height: 50vh;
 		display: flex;
 	  align-items: center;
 	  justify-content: center;
 
 	}
-
-header h1 {
-	color: white;
-	font-size: 70px;
-}
 
 	nav {
 		position: fixed;
@@ -115,6 +136,7 @@ header h1 {
 
 	ul a {
 		text-transform: none;
+		font-size: 18px;
 	}
 
 	ul {
@@ -124,7 +146,7 @@ header h1 {
 
 	nav li {
 		display: inline-block;
-		padding: 3px 60px;
+		padding: 15px 60px;
 	}
 
 	nav a {
@@ -149,6 +171,9 @@ header h1 {
 		color: #9AA0A6;
 	}
 
+#video {
+	align-items: center;
+}
 
 	/* ----------------------------------------
 	Buttons
