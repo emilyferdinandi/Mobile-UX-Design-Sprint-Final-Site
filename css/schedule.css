@@ -31,6 +31,7 @@ display: block;
      list-style: circle;
 }
 
-ul li a {
+.schedule li a {
    text-decoration: underline;
+  text-transform: uppercase;
 }
