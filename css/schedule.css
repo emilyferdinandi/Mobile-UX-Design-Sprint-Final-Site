@@ -27,9 +27,9 @@ header h2 {
 }
 
 ul {
-  display: inline;
+  display: block;
 }
 
 li {
-  display: inline;
+  display: block;
 }
