@@ -33,5 +33,5 @@ display: block;
 
 .schedule li a {
    text-decoration: underline;
-  text-transform: uppercase;
+    text-transform: capitalize;
 }
