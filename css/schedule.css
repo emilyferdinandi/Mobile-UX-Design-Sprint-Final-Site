@@ -25,3 +25,11 @@ header h2 {
   font-size: 18px;
   color: #7B98AA;
 }
+
+ul {
+  display: inline;
+}
+
+li {
+  display: inline;
+}
