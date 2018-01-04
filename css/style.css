@@ -50,8 +50,9 @@ padding: 50px;
 	}
 
 	h1 {
-		font-size: 37.5px;
+		font-size: 33px;
 		letter-spacing: 12px;
+		padding-top: 5px;
 	}
 
 	h2 {
