@@ -12,8 +12,12 @@ input{
 h1 {
   font-size: 30px;
 }
+
+h2 {
+   margin: 0px;
+
 p{
- margin: 10px;
+ margin: 0px;
  text-size:
 }
 
